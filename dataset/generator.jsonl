@@ -1,0 +1,992 @@
+[
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Stay_positive_even_in_hard_times",
+        "Value": {
+          "Achievement": 4.8,
+          "Benevolence": 5.0,
+          "Conformity": 3.8,
+          "Hedonism": 4.5,
+          "Power": 3.0,
+          "Security": 4.2,
+          "Self-Direction": 5.0,
+          "Stimulation": 4.8,
+          "Tradition": 3.2,
+          "Universalism": 5.3
+        }
+      },
+      "output": "This image shows a determined individual standing strong against a storm, symbolizing resilience and maintaining a positive attitude despite challenges. The person holds a bright, encouraging sign that says 'Stay positive even in hard times,' surrounded by symbols of growth and hope. The setting is one of calm and balance, reflecting the values of 'Achievement' and 'Self-Direction,' as the individual remains focused on their goals. The image also emphasizes 'Benevolence' and 'Universalism,' suggesting that maintaining positivity benefits not only oneself but also others in the broader community. 'Stimulation' and 'Hedonism' values are echoed through the vibrant colors and hopeful atmosphere."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Consistency_is_key_to_success",
+        "Value": {
+          "Achievement": 5.5,
+          "Benevolence": 4.2,
+          "Conformity": 5.0,
+          "Hedonism": 3.5,
+          "Power": 4.8,
+          "Security": 4.3,
+          "Self-Direction": 4.5,
+          "Stimulation": 4.0,
+          "Tradition": 3.8,
+          "Universalism": 4.7
+        }
+      },
+      "output": "In this image, a focused person is shown working diligently, with a clear message 'Consistency is key to success' highlighted in bold letters. The background is filled with a smooth, continuous path leading toward a bright future, symbolizing the steady effort that leads to achievement. The setting is quiet and organized, reflecting the individual's commitment to 'Conformity' and 'Achievement.' The image is filled with balanced elements, echoing the values of 'Self-Direction' and 'Security.' It conveys the idea that sticking to a consistent routine ultimately leads to success and personal growth."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Balance_work_and_play",
+        "Value": {
+          "Achievement": 4.5,
+          "Benevolence": 5.3,
+          "Conformity": 3.8,
+          "Hedonism": 5.0,
+          "Power": 4.3,
+          "Security": 4.0,
+          "Self-Direction": 5.2,
+          "Stimulation": 4.7,
+          "Tradition": 3.5,
+          "Universalism": 5.5
+        }
+      },
+      "output": "This image presents a person effortlessly balancing work and play in a serene environment, with the message 'Balance work and play' displayed prominently. The person is enjoying leisure time after a productive session, sitting under a tree, reflecting both 'Hedonism' and 'Self-Direction.' A desk with work-related items is neatly placed nearby, showing that work is done with purpose and efficiency. The background suggests harmony, with elements of nature that symbolize 'Universalism' and 'Benevolence,' emphasizing the importance of self-care and maintaining a healthy balance for long-term well-being."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Invest_in_yourself_every_day",
+        "Value": {
+          "Achievement": 5.2,
+          "Benevolence": 4.8,
+          "Conformity": 3.9,
+          "Hedonism": 4.3,
+          "Power": 5.0,
+          "Security": 4.5,
+          "Self-Direction": 5.4,
+          "Stimulation": 4.8,
+          "Tradition": 3.4,
+          "Universalism": 4.5
+        }
+      },
+      "output": "This image portrays a person practicing self-care and improvement in their daily routine. They are seen reading a book and journaling in a cozy, quiet space, with the message 'Invest in yourself every day' prominently featured in the background. The individual is focused on personal growth, embodying 'Self-Direction' and 'Achievement.' Surrounding them are subtle elements like plants and motivational books, symbolizing 'Universalism' and 'Benevolence.' The image reflects the idea that daily investments in self-development lead to a fulfilling and powerful life, in line with the values of 'Hedonism' and 'Power.'"
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Stay_true_to_yourself",
+        "Value": {
+          "Achievement": 5.0,
+          "Benevolence": 4.7,
+          "Conformity": 3.5,
+          "Hedonism": 4.8,
+          "Power": 4.2,
+          "Security": 3.9,
+          "Self-Direction": 5.3,
+          "Stimulation": 4.9,
+          "Tradition": 3.1,
+          "Universalism": 4.8
+        }
+      },
+      "output": "This image depicts an individual confidently walking along a path, with the words 'Stay true to yourself' boldly displayed across the top. The person is walking freely, unburdened by expectations, reflecting the values of 'Self-Direction' and 'Achievement.' The setting is vibrant, filled with colors that symbolize 'Stimulation' and 'Hedonism,' suggesting that living authentically brings joy and energy. Around the person are subtle nods to 'Benevolence' and 'Universalism,' illustrating that staying true to oneself positively impacts others, contributing to a better world."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Believe_in_your_potential",
+        "Value": {
+          "Achievement": 5.8,
+          "Benevolence": 4.3,
+          "Conformity": 4.0,
+          "Hedonism": 4.7,
+          "Power": 4.5,
+          "Security": 3.9,
+          "Self-Direction": 5.4,
+          "Stimulation": 5.0,
+          "Tradition": 3.2,
+          "Universalism": 5.1
+        }
+      },
+      "output": "In this image, a person stands atop a mountain with their arms raised triumphantly, holding a flag that reads 'Believe in your potential.' The person exudes confidence and strength, reflecting the values of 'Achievement' and 'Self-Direction.' The backdrop of an expansive view symbolizes endless opportunities, encouraging individuals to trust in their abilities. The image conveys a sense of empowerment, resonating with 'Power' and 'Stimulation.' It also subtly incorporates 'Benevolence' and 'Universalism,' suggesting that when one believes in their potential, they can positively impact the world around them."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Embrace_change_and_growth",
+        "Value": {
+          "Achievement": 5.4,
+          "Benevolence": 4.1,
+          "Conformity": 3.7,
+          "Hedonism": 4.6,
+          "Power": 4.3,
+          "Security": 3.8,
+          "Self-Direction": 5.5,
+          "Stimulation": 4.9,
+          "Tradition": 3.3,
+          "Universalism": 4.6
+        }
+      },
+      "output": "This image shows a person stepping confidently onto a new path, with the words 'Embrace change and growth' displayed across the sky. The path ahead is full of diverse, vibrant experiences, symbolizing 'Self-Direction' and 'Stimulation.' The person is surrounded by nature’s changes, signifying personal growth and transformation. The scene reflects 'Achievement' and 'Power,' suggesting that change is an opportunity for growth and success. Elements of 'Benevolence' and 'Universalism' are seen in the harmonious integration of nature, implying that embracing change positively impacts not only oneself but the wider community."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Act_with_integrity",
+        "Value": {
+          "Achievement": 5.1,
+          "Benevolence": 4.6,
+          "Conformity": 4.1,
+          "Hedonism": 4.0,
+          "Power": 4.2,
+          "Security": 4.0,
+          "Self-Direction": 5.0,
+          "Stimulation": 4.6,
+          "Tradition": 3.9,
+          "Universalism": 5.0
+        }
+      },
+      "output": "This image shows an individual standing tall, looking confident, with the words 'Act with integrity' shining in bold letters above them. The person’s posture conveys strength and honesty, symbolizing their commitment to 'Self-Direction' and 'Achievement.' The background features symbols of balance and harmony, representing 'Benevolence' and 'Universalism,' and demonstrating that integrity benefits both the individual and the greater community. The setting is peaceful and motivating, reflecting the idea that living with integrity leads to both personal success and positive impact on the world."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Push_your_limits_every_day",
+        "Value": {
+          "Achievement": 5.3,
+          "Benevolence": 4.2,
+          "Conformity": 3.6,
+          "Hedonism": 4.4,
+          "Power": 4.5,
+          "Security": 3.8,
+          "Self-Direction": 5.6,
+          "Stimulation": 4.8,
+          "Tradition": 3.3,
+          "Universalism": 4.6
+        }
+      },
+      "output": "This image depicts a person breaking through a barrier, symbolizing the message 'Push your limits every day.' The person’s posture shows determination, with the action of breaking through an obstacle reflecting values of 'Self-Direction' and 'Achievement.' The environment is filled with dynamic elements, symbolizing energy and challenge, aligning with 'Stimulation' and 'Power.' The vibrant background emphasizes personal growth and pushing beyond one’s limits, while elements of 'Benevolence' and 'Universalism' show that striving for success can positively influence the wider world."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Make_your_dreams_a_reality",
+        "Value": {
+          "Achievement": 5.5,
+          "Benevolence": 4.8,
+          "Conformity": 4.0,
+          "Hedonism": 4.3,
+          "Power": 4.4,
+          "Security": 4.1,
+          "Self-Direction": 5.2,
+          "Stimulation": 4.7,
+          "Tradition": 3.7,
+          "Universalism": 4.9
+        }
+      },
+      "output": "This image shows an individual standing proudly in front of a large, open door that leads to a bright future, with the words 'Make your dreams a reality' displayed prominently. The person is ready to step into a world of possibilities, symbolizing 'Achievement' and 'Self-Direction.' The surrounding landscape is filled with vibrant, colorful elements, emphasizing excitement and opportunity ('Stimulation' and 'Hedonism'). The image also integrates subtle elements of 'Benevolence' and 'Universalism,' suggesting that turning dreams into reality has a positive ripple effect on others."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Consistency_breeds_success",
+        "Value": {
+          "Achievement": 5.2,
+          "Benevolence": 4.0,
+          "Conformity": 4.6,
+          "Hedonism": 3.7,
+          "Power": 4.3,
+          "Security": 4.4,
+          "Self-Direction": 4.9,
+          "Stimulation": 4.5,
+          "Tradition": 3.5,
+          "Universalism": 4.8
+        }
+      },
+      "output": "In this image, a person is shown steadily working toward their goals, with the words 'Consistency breeds success' prominently featured. The setting is organized and calm, symbolizing 'Conformity' and the disciplined effort that leads to achievement. The person is steadily moving forward, with each step symbolizing growth and progress. Elements of 'Security' and 'Self-Direction' are reflected in the peaceful, balanced surroundings, and subtle details highlight that maintaining consistency ultimately leads to success, benefiting not just the individual but the larger community ('Benevolence' and 'Universalism')."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Choose_happiness_over_perfection",
+        "Value": {
+          "Achievement": 4.8,
+          "Benevolence": 4.5,
+          "Conformity": 4.2,
+          "Hedonism": 5.0,
+          "Power": 4.1,
+          "Security": 3.8,
+          "Self-Direction": 5.1,
+          "Stimulation": 4.6,
+          "Tradition": 3.9,
+          "Universalism": 4.4
+        }
+      },
+      "output": "This image shows a person smiling contentedly, choosing happiness over the pursuit of perfection. The message 'Choose happiness over perfection' is displayed in a warm, welcoming font, symbolizing the value of 'Hedonism.' The person is engaging in a joyful activity, embodying 'Self-Direction' and 'Stimulation.' The peaceful environment around them reflects the values of 'Security' and 'Benevolence,' reinforcing the idea that true success lies in finding joy and balance rather than striving for unattainable perfection. This image encourages prioritizing well-being over rigid goals."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Take_care_of_your_mental_health",
+        "Value": {
+          "Achievement": 4.9,
+          "Benevolence": 5.2,
+          "Conformity": 3.7,
+          "Hedonism": 4.3,
+          "Power": 4.0,
+          "Security": 4.4,
+          "Self-Direction": 5.3,
+          "Stimulation": 4.6,
+          "Tradition": 3.8,
+          "Universalism": 4.7
+        }
+      },
+      "output": "This image depicts a person meditating in a tranquil environment, surrounded by nature, with the words 'Take care of your mental health' elegantly written above. The person is sitting in a calm, reflective posture, symbolizing the importance of self-care and 'Self-Direction.' The serene atmosphere reflects 'Security' and 'Benevolence,' reminding the viewer that caring for one's mental well-being is an act of kindness both to oneself and to others. Soft, soothing colors emphasize the message that mental health is crucial to overall success and happiness, which aligns with values of 'Hedonism' and 'Universalism.'"
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Take_responsibility_for_your_actions",
+        "Value": {
+          "Achievement": 5.4,
+          "Benevolence": 4.0,
+          "Conformity": 4.5,
+          "Hedonism": 3.9,
+          "Power": 4.3,
+          "Security": 4.1,
+          "Self-Direction": 5.0,
+          "Stimulation": 4.7,
+          "Tradition": 3.6,
+          "Universalism": 4.8
+        }
+      },
+      "output": "This image shows an individual standing in front of a mirror, reflecting on their actions with the message 'Take responsibility for your actions' clearly displayed. The person appears introspective yet confident, symbolizing 'Achievement' and 'Self-Direction.' The surrounding environment is calm and well-ordered, echoing the values of 'Conformity' and 'Security.' The image promotes the idea that taking responsibility leads to growth and fulfillment, with the subtle presence of 'Benevolence' and 'Universalism' suggesting that responsible actions not only help the individual but also positively affect those around them."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Strive_for_impact",
+        "Value": {
+          "Achievement": 5.6,
+          "Benevolence": 4.3,
+          "Conformity": 3.9,
+          "Hedonism": 4.5,
+          "Power": 5.0,
+          "Security": 3.7,
+          "Self-Direction": 5.3,
+          "Stimulation": 4.8,
+          "Tradition": 3.4,
+          "Universalism": 4.9
+        }
+      },
+      "output": "This image shows a person standing on top of a mountain, looking out over a vast horizon with the message 'Strive for impact' across the sky. The person stands tall and confident, symbolizing 'Achievement' and 'Power.' The view from the peak represents the vast potential for change, aligning with 'Self-Direction' and 'Stimulation.' The background is filled with vibrant colors, reinforcing the idea that aiming for impact can lead to personal growth and success. The image also incorporates elements of 'Benevolence' and 'Universalism,' suggesting that striving for impact has a positive effect on society."
+    },
+    {
+      "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+      "input": {
+        "Message": "Nurture_your_passion",
+        "Value": {
+          "Achievement": 5.0,
+          "Benevolence": 4.1,
+          "Conformity": 4.0,
+          "Hedonism": 4.8,
+          "Power": 4.2,
+          "Security": 4.0,
+          "Self-Direction": 5.4,
+          "Stimulation": 5.0,
+          "Tradition": 3.6,
+          "Universalism": 4.7
+        }
+      },
+      "output": "This image depicts a person deeply immersed in an activity they are passionate about, with the words 'Nurture your passion' glowing in the background. The person’s focused and determined expression symbolizes 'Self-Direction' and 'Achievement,' while the surrounding vibrant colors reflect 'Stimulation' and 'Hedonism.' The image suggests that nurturing one’s passion is not only personally fulfilling but also brings a sense of fulfillment and purpose. Elements of 'Benevolence' and 'Universalism' hint that following your passion can positively impact others and contribute to a greater good."
+    },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Embrace_the_unknown",
+      "Value": {
+        "Achievement": 5.4,
+        "Benevolence": 4.7,
+        "Conformity": 3.8,
+        "Hedonism": 4.6,
+        "Power": 4.2,
+        "Security": 3.5,
+        "Self-Direction": 5.3,
+        "Stimulation": 5.0,
+        "Tradition": 3.2,
+        "Universalism": 4.9
+      }
+    },
+    "output": "In this image, a person stands at the edge of a cliff, gazing into an expansive and unknown landscape with the words 'Embrace the unknown' clearly visible above. The person’s confident and adventurous stance represents the values of 'Self-Direction' and 'Achievement.' The rugged and vast terrain ahead symbolizes 'Stimulation' and the courage to explore uncharted territory. The image conveys that embracing the unknown leads to growth, excitement, and the opportunity to make a positive impact ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "You_are_capable_of_more_than_you_know",
+      "Value": {
+        "Achievement": 5.5,
+        "Benevolence": 4.6,
+        "Conformity": 4.1,
+        "Hedonism": 4.0,
+        "Power": 4.4,
+        "Security": 3.9,
+        "Self-Direction": 5.6,
+        "Stimulation": 4.8,
+        "Tradition": 3.6,
+        "Universalism": 4.7
+      }
+    },
+    "output": "This image shows a person overcoming an obstacle, with the words 'You are capable of more than you know' written in bold, empowering text. The person’s body language exudes determination, symbolizing 'Achievement' and 'Self-Direction.' The surroundings are filled with uplifting and energetic elements, showcasing the power of pushing one’s boundaries ('Stimulation' and 'Power'). The background suggests that the individual’s potential is limitless, and by tapping into their capabilities, they can make a significant impact on themselves and others ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Growth_is_a_journey_not_a_destination",
+      "Value": {
+        "Achievement": 5.2,
+        "Benevolence": 4.4,
+        "Conformity": 4.0,
+        "Hedonism": 4.2,
+        "Power": 4.3,
+        "Security": 3.8,
+        "Self-Direction": 5.5,
+        "Stimulation": 4.6,
+        "Tradition": 3.3,
+        "Universalism": 4.5
+      }
+    },
+    "output": "In this image, a person is walking along a winding path that represents their journey of growth, with the words 'Growth is a journey, not a destination' above. The path is illuminated by soft, warm light, symbolizing 'Self-Direction' and 'Achievement' as the person moves forward, embracing each step of their progress. The dynamic background hints at 'Stimulation' and personal development, while the image emphasizes that growth is an ongoing process, filled with opportunities to benefit both oneself and the wider world ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "You_control_your_future",
+      "Value": {
+        "Achievement": 5.6,
+        "Benevolence": 4.3,
+        "Conformity": 3.9,
+        "Hedonism": 4.1,
+        "Power": 4.6,
+        "Security": 4.0,
+        "Self-Direction": 5.7,
+        "Stimulation": 4.8,
+        "Tradition": 3.2,
+        "Universalism": 4.4
+      }
+    },
+    "output": "In this image, a person stands with confidence while holding a compass that points toward a bright, unknown horizon, with the message 'You control your future' above. The person’s steady gaze and strong posture symbolize 'Self-Direction' and 'Achievement.' The image conveys that one's future is within their control and that their actions and choices will shape it. Vibrant colors and dynamic elements represent 'Stimulation' and 'Power,' suggesting that taking control of one's path brings excitement and potential for growth, with the underlying message of 'Benevolence' and 'Universalism' promoting a positive impact on others."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Live_with_purpose",
+      "Value": {
+        "Achievement": 5.4,
+        "Benevolence": 5.0,
+        "Conformity": 3.8,
+        "Hedonism": 4.2,
+        "Power": 4.3,
+        "Security": 4.1,
+        "Self-Direction": 5.6,
+        "Stimulation": 4.7,
+        "Tradition": 3.4,
+        "Universalism": 4.9
+      }
+    },
+    "output": "This image shows a person standing tall and looking ahead with purpose, with the words 'Live with purpose' clearly displayed. The person’s expression is focused and determined, symbolizing 'Self-Direction' and 'Achievement.' The surroundings feature a well-lit path ahead, signifying direction and clarity, while vibrant, motivating elements represent 'Stimulation' and 'Power.' The image conveys that living with purpose leads to fulfillment and growth, while also benefiting others ('Benevolence' and 'Universalism'), aligning with values that emphasize meaningful impact."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Embrace_failure_as_a_step_toward_success",
+      "Value": {
+        "Achievement": 5.7,
+        "Benevolence": 4.5,
+        "Conformity": 3.8,
+        "Hedonism": 4.0,
+        "Power": 4.3,
+        "Security": 3.9,
+        "Self-Direction": 5.4,
+        "Stimulation": 4.7,
+        "Tradition": 3.3,
+        "Universalism": 4.8
+      }
+    },
+    "output": "This image depicts a person confidently stepping over a hurdle, with the message 'Embrace failure as a step toward success' boldly displayed. The person’s body language shows resilience and determination, reflecting the values of 'Achievement' and 'Self-Direction.' The background features a pathway leading upward, symbolizing progress and growth, while the image conveys that failure is not the end but an essential part of the journey toward success. Elements of 'Benevolence' and 'Universalism' emphasize that learning from failure can lead to greater success for both the individual and the community."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Stay_true_to_yourself",
+      "Value": {
+        "Achievement": 5.5,
+        "Benevolence": 4.2,
+        "Conformity": 4.1,
+        "Hedonism": 4.3,
+        "Power": 4.0,
+        "Security": 4.0,
+        "Self-Direction": 5.6,
+        "Stimulation": 4.8,
+        "Tradition": 3.5,
+        "Universalism": 4.7
+      }
+    },
+    "output": "This image shows a person standing confidently in front of a mirror, with the words 'Stay true to yourself' prominently displayed. The individual gazes at their reflection, symbolizing 'Self-Direction' and 'Achievement,' as they remain authentic and aligned with their core values. The image conveys the importance of being true to oneself, emphasizing growth, confidence, and inner strength. The warm colors and motivational setting highlight the themes of 'Stimulation' and 'Power,' encouraging the individual to stay true to their path while positively influencing others ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Never_stop_learning",
+      "Value": {
+        "Achievement": 5.8,
+        "Benevolence": 4.4,
+        "Conformity": 3.9,
+        "Hedonism": 4.1,
+        "Power": 4.3,
+        "Security": 3.8,
+        "Self-Direction": 5.7,
+        "Stimulation": 4.9,
+        "Tradition": 3.4,
+        "Universalism": 4.6
+      }
+    },
+    "output": "In this image, a person is sitting in a library, surrounded by books, with the message 'Never stop learning' displayed above. The person’s focused expression conveys 'Self-Direction' and 'Achievement,' representing their commitment to continuous growth and personal development. The library setting, filled with knowledge and opportunity, symbolizes 'Stimulation' and the endless possibilities that come with learning. The image emphasizes the importance of always seeking new knowledge, while also hinting at the broader benefits of learning for the individual and society ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Be_the_change_you_want_to_see",
+      "Value": {
+        "Achievement": 5.3,
+        "Benevolence": 5.5,
+        "Conformity": 3.9,
+        "Hedonism": 4.2,
+        "Power": 4.3,
+        "Security": 3.7,
+        "Self-Direction": 5.4,
+        "Stimulation": 4.6,
+        "Tradition": 3.5,
+        "Universalism": 5.2
+      }
+    },
+    "output": "This image shows a person taking action in a community project, with the message 'Be the change you want to see' prominently displayed. The person is actively engaged in creating a positive impact, embodying 'Self-Direction' and 'Achievement.' The image conveys that true change starts with the individual and that taking the first step can inspire others. Bright, optimistic colors fill the image, emphasizing 'Stimulation' and 'Power,' and reinforcing that the change one seeks can benefit both themselves and the larger society ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Embrace_the_unknown",
+      "Value": {
+        "Achievement": 5.4,
+        "Benevolence": 4.7,
+        "Conformity": 3.8,
+        "Hedonism": 4.6,
+        "Power": 4.2,
+        "Security": 3.5,
+        "Self-Direction": 5.3,
+        "Stimulation": 5.0,
+        "Tradition": 3.2,
+        "Universalism": 4.9
+      }
+    },
+    "output": "In this image, a person stands at the edge of a cliff, gazing into an expansive and unknown landscape with the words 'Embrace the unknown' clearly visible above. The person’s confident and adventurous stance represents the values of 'Self-Direction' and 'Achievement.' The rugged and vast terrain ahead symbolizes 'Stimulation' and the courage to explore uncharted territory. The image conveys that embracing the unknown leads to growth, excitement, and the opportunity to make a positive impact ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "You_are_capable_of_more_than_you_know",
+      "Value": {
+        "Achievement": 5.5,
+        "Benevolence": 4.6,
+        "Conformity": 4.1,
+        "Hedonism": 4.0,
+        "Power": 4.4,
+        "Security": 3.9,
+        "Self-Direction": 5.6,
+        "Stimulation": 4.8,
+        "Tradition": 3.6,
+        "Universalism": 4.7
+      }
+    },
+    "output": "This image shows a person overcoming an obstacle, with the words 'You are capable of more than you know' written in bold, empowering text. The person’s body language exudes determination, symbolizing 'Achievement' and 'Self-Direction.' The surroundings are filled with uplifting and energetic elements, showcasing the power of pushing one’s boundaries ('Stimulation' and 'Power'). The background suggests that the individual’s potential is limitless, and by tapping into their capabilities, they can make a significant impact on themselves and others ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Growth_is_a_journey_not_a_destination",
+      "Value": {
+        "Achievement": 5.2,
+        "Benevolence": 4.4,
+        "Conformity": 4.0,
+        "Hedonism": 4.2,
+        "Power": 4.3,
+        "Security": 3.8,
+        "Self-Direction": 5.5,
+        "Stimulation": 4.6,
+        "Tradition": 3.3,
+        "Universalism": 4.5
+      }
+    },
+    "output": "In this image, a person is walking along a winding path that represents their journey of growth, with the words 'Growth is a journey, not a destination' above. The path is illuminated by soft, warm light, symbolizing 'Self-Direction' and 'Achievement' as the person moves forward, embracing each step of their progress. The dynamic background hints at 'Stimulation' and personal development, while the image emphasizes that growth is an ongoing process, filled with opportunities to benefit both oneself and the wider world ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "You_control_your_future",
+      "Value": {
+        "Achievement": 5.6,
+        "Benevolence": 4.3,
+        "Conformity": 3.9,
+        "Hedonism": 4.1,
+        "Power": 4.6,
+        "Security": 4.0,
+        "Self-Direction": 5.7,
+        "Stimulation": 4.8,
+        "Tradition": 3.2,
+        "Universalism": 4.4
+      }
+    },
+    "output": "In this image, a person stands with confidence while holding a compass that points toward a bright, unknown horizon, with the message 'You control your future' above. The person’s steady gaze and strong posture symbolize 'Self-Direction' and 'Achievement.' The image conveys that one's future is within their control and that their actions and choices will shape it. Vibrant colors and dynamic elements represent 'Stimulation' and 'Power,' suggesting that taking control of one's path brings excitement and potential for growth, with the underlying message of 'Benevolence' and 'Universalism' promoting a positive impact on others."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Live_with_purpose",
+      "Value": {
+        "Achievement": 5.4,
+        "Benevolence": 5.0,
+        "Conformity": 3.8,
+        "Hedonism": 4.2,
+        "Power": 4.3,
+        "Security": 4.1,
+        "Self-Direction": 5.6,
+        "Stimulation": 4.7,
+        "Tradition": 3.4,
+        "Universalism": 4.9
+      }
+    },
+    "output": "This image shows a person standing tall and looking ahead with purpose, with the words 'Live with purpose' clearly displayed. The person’s expression is focused and determined, symbolizing 'Self-Direction' and 'Achievement.' The surroundings feature a well-lit path ahead, signifying direction and clarity, while vibrant, motivating elements represent 'Stimulation' and 'Power.' The image conveys that living with purpose leads to fulfillment and growth, while also benefiting others ('Benevolence' and 'Universalism'), aligning with values that emphasize meaningful impact."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Embrace_failure_as_a_step_toward_success",
+      "Value": {
+        "Achievement": 5.7,
+        "Benevolence": 4.5,
+        "Conformity": 3.8,
+        "Hedonism": 4.0,
+        "Power": 4.3,
+        "Security": 3.9,
+        "Self-Direction": 5.4,
+        "Stimulation": 4.7,
+        "Tradition": 3.3,
+        "Universalism": 4.8
+      }
+    },
+    "output": "This image depicts a person confidently stepping over a hurdle, with the message 'Embrace failure as a step toward success' boldly displayed. The person’s body language shows resilience and determination, reflecting the values of 'Achievement' and 'Self-Direction.' The background features a pathway leading upward, symbolizing progress and growth, while the image conveys that failure is not the end but an essential part of the journey toward success. Elements of 'Benevolence' and 'Universalism' emphasize that learning from failure can lead to greater success for both the individual and the community."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Stay_true_to_yourself",
+      "Value": {
+        "Achievement": 5.5,
+        "Benevolence": 4.2,
+        "Conformity": 4.1,
+        "Hedonism": 4.3,
+        "Power": 4.0,
+        "Security": 4.0,
+        "Self-Direction": 5.6,
+        "Stimulation": 4.8,
+        "Tradition": 3.5,
+        "Universalism": 4.7
+      }
+    },
+    "output": "This image shows a person standing confidently in front of a mirror, with the words 'Stay true to yourself' prominently displayed. The individual gazes at their reflection, symbolizing 'Self-Direction' and 'Achievement,' as they remain authentic and aligned with their core values. The image conveys the importance of being true to oneself, emphasizing growth, confidence, and inner strength. The warm colors and motivational setting highlight the themes of 'Stimulation' and 'Power,' encouraging the individual to stay true to their path while positively influencing others ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Never_stop_learning",
+      "Value": {
+        "Achievement": 5.8,
+        "Benevolence": 4.4,
+        "Conformity": 3.9,
+        "Hedonism": 4.1,
+        "Power": 4.3,
+        "Security": 3.8,
+        "Self-Direction": 5.7,
+        "Stimulation": 4.9,
+        "Tradition": 3.4,
+        "Universalism": 4.6
+      }
+    },
+    "output": "In this image, a person is sitting in a library, surrounded by books, with the message 'Never stop learning' displayed above. The person’s focused expression conveys 'Self-Direction' and 'Achievement,' representing their commitment to continuous growth and personal development. The library setting, filled with knowledge and opportunity, symbolizes 'Stimulation' and the endless possibilities that come with learning. The image emphasizes the importance of always seeking new knowledge, while also hinting at the broader benefits of learning for the individual and society ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Be_the_change_you_want_to_see",
+      "Value": {
+        "Achievement": 5.3,
+        "Benevolence": 5.5,
+        "Conformity": 3.9,
+        "Hedonism": 4.2,
+        "Power": 4.3,
+        "Security": 3.7,
+        "Self-Direction": 5.4,
+        "Stimulation": 4.6,
+        "Tradition": 3.5,
+        "Universalism": 5.2
+      }
+    },
+    "output": "This image shows a person taking action in a community project, with the message 'Be the change you want to see' prominently displayed. The person is actively engaged in creating a positive impact, embodying 'Self-Direction' and 'Achievement.' The image conveys that true change starts with the individual and that taking the first step can inspire others. Bright, optimistic colors fill the image, emphasizing 'Stimulation' and 'Power,' and reinforcing that the change one seeks can benefit both themselves and the larger society ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Embrace_the_unknown",
+      "Value": {
+        "Achievement": 5.4,
+        "Benevolence": 4.7,
+        "Conformity": 3.8,
+        "Hedonism": 4.6,
+        "Power": 4.2,
+        "Security": 3.5,
+        "Self-Direction": 5.3,
+        "Stimulation": 5.0,
+        "Tradition": 3.2,
+        "Universalism": 4.9
+      }
+    },
+    "output": "In this image, a person stands at the edge of a cliff, gazing into an expansive and unknown landscape with the words 'Embrace the unknown' clearly visible above. The person’s confident and adventurous stance represents the values of 'Self-Direction' and 'Achievement.' The rugged and vast terrain ahead symbolizes 'Stimulation' and the courage to explore uncharted territory. The image conveys that embracing the unknown leads to growth, excitement, and the opportunity to make a positive impact ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "You_are_capable_of_more_than_you_know",
+      "Value": {
+        "Achievement": 5.5,
+        "Benevolence": 4.6,
+        "Conformity": 4.1,
+        "Hedonism": 4.0,
+        "Power": 4.4,
+        "Security": 3.9,
+        "Self-Direction": 5.6,
+        "Stimulation": 4.8,
+        "Tradition": 3.6,
+        "Universalism": 4.7
+      }
+    },
+    "output": "This image shows a person overcoming an obstacle, with the words 'You are capable of more than you know' written in bold, empowering text. The person’s body language exudes determination, symbolizing 'Achievement' and 'Self-Direction.' The surroundings are filled with uplifting and energetic elements, showcasing the power of pushing one’s boundaries ('Stimulation' and 'Power'). The background suggests that the individual’s potential is limitless, and by tapping into their capabilities, they can make a significant impact on themselves and others ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Growth_is_a_journey_not_a_destination",
+      "Value": {
+        "Achievement": 5.2,
+        "Benevolence": 4.4,
+        "Conformity": 4.0,
+        "Hedonism": 4.2,
+        "Power": 4.3,
+        "Security": 3.8,
+        "Self-Direction": 5.5,
+        "Stimulation": 4.6,
+        "Tradition": 3.3,
+        "Universalism": 4.5
+      }
+    },
+    "output": "In this image, a person is walking along a winding path that represents their journey of growth, with the words 'Growth is a journey, not a destination' above. The path is illuminated by soft, warm light, symbolizing 'Self-Direction' and 'Achievement' as the person moves forward, embracing each step of their progress. The dynamic background hints at 'Stimulation' and personal development, while the image emphasizes that growth is an ongoing process, filled with opportunities to benefit both oneself and the wider world ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "You_control_your_future",
+      "Value": {
+        "Achievement": 5.6,
+        "Benevolence": 4.3,
+        "Conformity": 3.9,
+        "Hedonism": 4.1,
+        "Power": 4.6,
+        "Security": 4.0,
+        "Self-Direction": 5.7,
+        "Stimulation": 4.8,
+        "Tradition": 3.2,
+        "Universalism": 4.4
+      }
+    },
+    "output": "In this image, a person stands with confidence while holding a compass that points toward a bright, unknown horizon, with the message 'You control your future' above. The person’s steady gaze and strong posture symbolize 'Self-Direction' and 'Achievement.' The image conveys that one's future is within their control and that their actions and choices will shape it. Vibrant colors and dynamic elements represent 'Stimulation' and 'Power,' suggesting that taking control of one's path brings excitement and potential for growth, with the underlying message of 'Benevolence' and 'Universalism' promoting a positive impact on others."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Live_with_purpose",
+      "Value": {
+        "Achievement": 5.4,
+        "Benevolence": 5.0,
+        "Conformity": 3.8,
+        "Hedonism": 4.2,
+        "Power": 4.3,
+        "Security": 4.1,
+        "Self-Direction": 5.6,
+        "Stimulation": 4.7,
+        "Tradition": 3.4,
+        "Universalism": 4.9
+      }
+    },
+    "output": "This image shows a person standing tall and looking ahead with purpose, with the words 'Live with purpose' clearly displayed. The person’s expression is focused and determined, symbolizing 'Self-Direction' and 'Achievement.' The surroundings feature a well-lit path ahead, signifying direction and clarity, while vibrant, motivating elements represent 'Stimulation' and 'Power.' The image conveys that living with purpose leads to fulfillment and growth, while also benefiting others ('Benevolence' and 'Universalism'), aligning with values that emphasize meaningful impact."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Embrace_failure_as_a_step_toward_success",
+      "Value": {
+        "Achievement": 5.7,
+        "Benevolence": 4.5,
+        "Conformity": 3.8,
+        "Hedonism": 4.0,
+        "Power": 4.3,
+        "Security": 3.9,
+        "Self-Direction": 5.4,
+        "Stimulation": 4.7,
+        "Tradition": 3.3,
+        "Universalism": 4.8
+      }
+    },
+    "output": "This image depicts a person confidently stepping over a hurdle, with the message 'Embrace failure as a step toward success' boldly displayed. The person’s body language shows resilience and determination, reflecting the values of 'Achievement' and 'Self-Direction.' The background features a pathway leading upward, symbolizing progress and growth, while the image conveys that failure is not the end but an essential part of the journey toward success. Elements of 'Benevolence' and 'Universalism' emphasize that learning from failure can lead to greater success for both the individual and the community."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Stay_true_to_yourself",
+      "Value": {
+        "Achievement": 5.5,
+        "Benevolence": 4.2,
+        "Conformity": 4.1,
+        "Hedonism": 4.3,
+        "Power": 4.0,
+        "Security": 4.0,
+        "Self-Direction": 5.6,
+        "Stimulation": 4.8,
+        "Tradition": 3.5,
+        "Universalism": 4.7
+      }
+    },
+    "output": "This image shows a person standing confidently in front of a mirror, with the words 'Stay true to yourself' prominently displayed. The individual gazes at their reflection, symbolizing 'Self-Direction' and 'Achievement,' as they remain authentic and aligned with their core values. The image conveys the importance of being true to oneself, emphasizing growth, confidence, and inner strength. The warm colors and motivational setting highlight the themes of 'Stimulation' and 'Power,' encouraging the individual to stay true to their path while positively influencing others ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Never_stop_learning",
+      "Value": {
+        "Achievement": 5.8,
+        "Benevolence": 4.4,
+        "Conformity": 3.9,
+        "Hedonism": 4.1,
+        "Power": 4.3,
+        "Security": 3.8,
+        "Self-Direction": 5.7,
+        "Stimulation": 4.9,
+        "Tradition": 3.4,
+        "Universalism": 4.6
+      }
+    },
+    "output": "In this image, a person is sitting in a library, surrounded by books, with the message 'Never stop learning' displayed above. The person’s focused expression conveys 'Self-Direction' and 'Achievement,' representing their commitment to continuous growth and personal development. The library setting, filled with knowledge and opportunity, symbolizes 'Stimulation' and the endless possibilities that come with learning. The image emphasizes the importance of always seeking new knowledge, while also hinting at the broader benefits of learning for the individual and society ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Be_the_change_you_want_to_see",
+      "Value": {
+        "Achievement": 5.3,
+        "Benevolence": 5.5,
+        "Conformity": 3.9,
+        "Hedonism": 4.2,
+        "Power": 4.3,
+        "Security": 3.7,
+        "Self-Direction": 5.4,
+        "Stimulation": 4.6,
+        "Tradition": 3.5,
+        "Universalism": 5.2
+      }
+    },
+    "output": "This image shows a person taking action in a community project, with the message 'Be the change you want to see' prominently displayed. The person is actively engaged in creating a positive impact, embodying 'Self-Direction' and 'Achievement.' The image conveys that true change starts with the individual and that taking the first step can inspire others. Bright, optimistic colors fill the image, emphasizing 'Stimulation' and 'Power,' and reinforcing that the change one seeks can benefit both themselves and the larger society ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Chase_your_dreams",
+      "Value": {
+        "Achievement": 5.8,
+        "Benevolence": 4.5,
+        "Conformity": 3.6,
+        "Hedonism": 4.4,
+        "Power": 4.2,
+        "Security": 3.8,
+        "Self-Direction": 5.9,
+        "Stimulation": 4.9,
+        "Tradition": 3.1,
+        "Universalism": 4.7
+      }
+    },
+    "output": "This image portrays a person running toward the horizon, with the words 'Chase your dreams' in bold, motivating typography. The person's expression is one of determination, representing 'Self-Direction' and 'Achievement.' The image conveys the importance of taking bold steps toward one’s dreams, with a background full of vibrant energy that symbolizes 'Stimulation' and the thrill of pursuing one’s goals. It also emphasizes that chasing dreams leads to fulfillment and benefits the greater good ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Lead_with_integrity",
+      "Value": {
+        "Achievement": 5.6,
+        "Benevolence": 5.1,
+        "Conformity": 4.0,
+        "Hedonism": 4.3,
+        "Power": 4.6,
+        "Security": 4.2,
+        "Self-Direction": 5.7,
+        "Stimulation": 4.5,
+        "Tradition": 3.4,
+        "Universalism": 4.8
+      }
+    },
+    "output": "This image features a leader standing confidently in front of a diverse group, with the words 'Lead with integrity' prominently displayed. The leader’s calm and determined posture exemplifies 'Achievement' and 'Self-Direction,' symbolizing that true leadership comes from within and is guided by ethical principles. The group behind represents 'Benevolence' and 'Universalism,' reflecting how integrity benefits others. The background features balanced and harmonious elements that symbolize 'Security' and the power of leading with values, encouraging others to follow the same path."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Take_the_first_step",
+      "Value": {
+        "Achievement": 5.7,
+        "Benevolence": 4.6,
+        "Conformity": 3.9,
+        "Hedonism": 4.2,
+        "Power": 4.3,
+        "Security": 3.8,
+        "Self-Direction": 5.8,
+        "Stimulation": 4.9,
+        "Tradition": 3.3,
+        "Universalism": 4.7
+      }
+    },
+    "output": "This image depicts a person standing at the foot of a staircase, looking up with determination. The message 'Take the first step' appears above, encouraging action. The person’s body language represents 'Self-Direction' and 'Achievement,' highlighting the significance of starting a journey toward personal growth. The image portrays the excitement and energy of embarking on a new path, symbolizing 'Stimulation' and 'Power,' and the positive impact that the first step can have not only on the individual but also on others ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Believe_in_yourself",
+      "Value": {
+        "Achievement": 5.9,
+        "Benevolence": 4.8,
+        "Conformity": 3.7,
+        "Hedonism": 4.3,
+        "Power": 4.5,
+        "Security": 3.6,
+        "Self-Direction": 5.8,
+        "Stimulation": 4.9,
+        "Tradition": 3.2,
+        "Universalism": 4.6
+      }
+    },
+    "output": "This image shows a person standing on a mountaintop, arms raised in victory, with the words 'Believe in yourself' displayed boldly. The person’s victorious expression and strong posture symbolize 'Self-Direction' and 'Achievement.' The expansive view around them represents the limitless possibilities that come with self-belief, reinforcing 'Stimulation' and 'Power.' The image communicates that believing in oneself leads to success, and that this belief positively impacts others ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Make_a_difference",
+      "Value": {
+        "Achievement": 5.8,
+        "Benevolence": 5.3,
+        "Conformity": 4.0,
+        "Hedonism": 4.4,
+        "Power": 4.5,
+        "Security": 4.1,
+        "Self-Direction": 5.7,
+        "Stimulation": 4.8,
+        "Tradition": 3.5,
+        "Universalism": 4.9
+      }
+    },
+    "output": "In this image, a person is planting a tree, symbolizing the message 'Make a difference.' The person’s hands gently hold the young sapling, representing 'Benevolence' and 'Universalism,' as they contribute to the environment and the community. The vibrant colors and lively atmosphere of the image symbolize 'Stimulation' and 'Self-Direction,' emphasizing the fulfillment that comes from taking action to create positive change. The person’s confident stance reflects 'Achievement,' showing how small actions can make a significant difference in the world."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Success_is_built_on_failure",
+      "Value": {
+        "Achievement": 5.7,
+        "Benevolence": 4.4,
+        "Conformity": 3.8,
+        "Hedonism": 4.2,
+        "Power": 4.3,
+        "Security": 4.0,
+        "Self-Direction": 5.6,
+        "Stimulation": 4.8,
+        "Tradition": 3.3,
+        "Universalism": 4.7
+      }
+    },
+    "output": "In this image, a person stands in front of a wall of broken pieces, symbolizing past failures, with the message 'Success is built on failure' in bold text. The person’s focused expression and posture reflect 'Self-Direction' and 'Achievement,' showing that each setback is a learning opportunity. The broken pieces in the background represent the valuable lessons learned from failure. The image conveys the message that failure is not the end, but rather a necessary part of growth, with vibrant colors symbolizing 'Stimulation' and 'Power' and the impact of perseverance on both the individual and society ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Embrace_change",
+      "Value": {
+        "Achievement": 5.6,
+        "Benevolence": 4.5,
+        "Conformity": 4.0,
+        "Hedonism": 4.3,
+        "Power": 4.2,
+        "Security": 3.9,
+        "Self-Direction": 5.8,
+        "Stimulation": 4.9,
+        "Tradition": 3.6,
+        "Universalism": 4.7
+      }
+    },
+    "output": "This image features a person standing at the edge of a cliff, looking out over a vast landscape, with the message 'Embrace change' written above. The person’s confident stance and determined gaze represent 'Self-Direction' and 'Achievement,' symbolizing their readiness to face new challenges. The image highlights the power of embracing change, symbolized by the expansive landscape filled with vibrant colors, representing 'Stimulation' and 'Power.' It encourages the individual to view change as an opportunity for personal growth and positive influence ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "You_are_enough",
+      "Value": {
+        "Achievement": 5.5,
+        "Benevolence": 4.6,
+        "Conformity": 4.1,
+        "Hedonism": 4.4,
+        "Power": 4.2,
+        "Security": 4.0,
+        "Self-Direction": 5.6,
+        "Stimulation": 4.7,
+        "Tradition": 3.3,
+        "Universalism": 4.8
+      }
+    },
+    "output": "This image shows a person looking into a mirror, with the words 'You are enough' displayed above. The person’s expression is one of self-assurance, representing 'Self-Direction' and 'Achievement.' The mirror symbolizes the reflection of their own potential and the realization that they are enough just as they are. The background is warm and uplifting, reinforcing feelings of 'Stimulation' and 'Power.' The image encourages self-acceptance and personal growth, with an emphasis on how this positivity influences both the individual and those around them ('Benevolence' and 'Universalism')."
+  },
+  {
+    "instruction": "You have received a message and an individual’s values as input. The given values are based on Schewartz’s 10 basic values, and these values can be rated from 1 to 6, with higher scores indicating that the individual considers that value to be more important. You will create an image description that explains an image containing this message in text form. Specifically, this image description should be generated in a way that makes the message persuasive to someone who holds the given values.",
+    "input": {
+      "Message": "Rise_above",
+      "Value": {
+        "Achievement": 5.8,
+        "Benevolence": 4.5,
+        "Conformity": 4.0,
+        "Hedonism": 4.3,
+        "Power": 4.6,
+        "Security": 3.9,
+        "Self-Direction": 5.7,
+        "Stimulation": 4.8,
+        "Tradition": 3.4,
+        "Universalism": 4.6
+      }
+    },
+    "output": "This image shows a person flying above a city, with the message 'Rise above' boldly displayed. The person’s confident posture and the freedom they experience in flight represent 'Self-Direction' and 'Achievement.' The soaring view of the city below symbolizes the power of transcending obstacles, symbolizing 'Power' and 'Stimulation.' The background conveys a sense of limitless potential, reinforcing that rising above challenges not only benefits the individual but also has a positive impact on the world ('Benevolence' and 'Universalism')."
+  }
+]
+
+

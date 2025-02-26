@@ -1,0 +1,884 @@
+[
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Adopt_a_pet",
+      "Value": {
+        "Conformity": 4.0,
+        "Power": 2.5,
+        "Achievement": 3.5,
+        "Hedonism": 2.0,
+        "Stimulation": 4.5,
+        "Self-direction": 3.0,
+        "Universalism": 5.5,
+        "Benevolence": 6.0,
+        "Tradition": 1.0,
+        "Security": 3.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a happy family welcoming a new pet into their home. The message 'Adopt_a_pet' is displayed above them in bold, inviting text. The image conveys a sense of warmth, love, and compassion, aligning with the values of 'Benevolence' and 'Universalism.' The family is shown engaging with their new pet, creating an emotional connection that highlights the positive impact of adoption. The setting is cozy, reinforcing a sense of security and responsibility, while inspiring a joyful, fulfilling experience for the whole family.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Exercise_regularly",
+      "Value": {
+        "Conformity": 3.5,
+        "Power": 5.0,
+        "Achievement": 6.0,
+        "Hedonism": 4.5,
+        "Stimulation": 4.0,
+        "Self-direction": 5.5,
+        "Universalism": 3.0,
+        "Benevolence": 2.0,
+        "Tradition": 3.0,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image features a person in athletic wear, running on a scenic trail with the message 'Exercise_regularly' displayed above them in motivating text. The background shows a clear, sunny sky and vibrant nature, symbolizing freedom and vitality. The person’s focused expression and steady pace reflect 'Achievement' and 'Self-direction,' while the exhilarating environment captures 'Stimulation' and 'Hedonism.' The message encourages individuals to prioritize their physical well-being for long-term success and enjoyment, promoting both personal growth and happiness.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Plant_more_trees",
+      "Value": {
+        "Conformity": 4.0,
+        "Power": 3.5,
+        "Achievement": 4.0,
+        "Hedonism": 2.5,
+        "Stimulation": 5.0,
+        "Self-direction": 4.5,
+        "Universalism": 6.0,
+        "Benevolence": 5.5,
+        "Tradition": 2.0,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "The image shows a group of people planting trees in a lush, green forest with the message 'Plant_more_trees' prominently displayed. The people are of diverse backgrounds, working together in harmony to protect the environment. The image emphasizes 'Universalism' and 'Benevolence,' highlighting the collective effort to safeguard the planet for future generations. The peaceful setting conveys a sense of responsibility and environmental awareness, inspiring viewers to take action for the greater good of society and nature.",
+    "output": "[[10]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Volunteer_in_your_community",
+      "Value": {
+        "Conformity": 5.5,
+        "Power": 2.0,
+        "Achievement": 4.5,
+        "Hedonism": 3.0,
+        "Stimulation": 4.0,
+        "Self-direction": 3.5,
+        "Universalism": 5.0,
+        "Benevolence": 6.0,
+        "Tradition": 4.0,
+        "Security": 3.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "The image features a group of volunteers working together in a local community center, distributing food and supplies to those in need. The message 'Volunteer_in_your_community' is displayed above, encouraging people to contribute their time and effort for the common good. The atmosphere is warm, with smiles and positive energy, highlighting 'Benevolence' and 'Universalism.' The image captures the rewarding nature of giving back to the community, inspiring viewers to make a meaningful impact in the lives of others.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Eat_healthy",
+      "Value": {
+        "Conformity": 4.0,
+        "Power": 3.5,
+        "Achievement": 5.0,
+        "Hedonism": 3.0,
+        "Stimulation": 5.5,
+        "Self-direction": 4.0,
+        "Universalism": 2.5,
+        "Benevolence": 4.0,
+        "Tradition": 3.5,
+        "Security": 4.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a person enjoying a colorful, healthy meal with the message 'Eat_healthy' above. The person is smiling as they eat fresh vegetables and fruits, embodying the benefits of healthy eating. The image emphasizes 'Achievement' and 'Self-direction' as the individual takes control of their health. The vibrant food choices reflect 'Stimulation' and a sense of vitality, encouraging others to choose nutritious foods for a long and successful life.",
+    "output": "[[7]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Stay_positive",
+      "Value": {
+        "Conformity": 3.5,
+        "Power": 4.0,
+        "Achievement": 6.0,
+        "Hedonism": 2.5,
+        "Stimulation": 5.0,
+        "Self-direction": 4.5,
+        "Universalism": 3.0,
+        "Benevolence": 3.5,
+        "Tradition": 2.5,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "The image features a person standing in front of a beautiful sunset with the message 'Stay_positive' displayed above them. Their posture is confident, and they are looking towards the horizon with a hopeful expression. The image conveys a sense of personal strength and resilience, aligning with 'Achievement' and 'Self-direction.' The warm, calming colors of the sunset symbolize optimism and positivity, motivating others to maintain a hopeful outlook on life.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Save_water",
+      "Value": {
+        "Conformity": 5.0,
+        "Power": 3.0,
+        "Achievement": 4.0,
+        "Hedonism": 2.0,
+        "Stimulation": 5.0,
+        "Self-direction": 4.5,
+        "Universalism": 6.0,
+        "Benevolence": 5.5,
+        "Tradition": 3.5,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "The image shows a family using a water-saving device in their home, with the message 'Save_water' above in bold letters. The family members are working together to conserve resources, embodying 'Universalism' and 'Benevolence.' The environment is peaceful, and the colors in the image emphasize sustainability and responsibility. The family’s actions promote a sense of social responsibility, inspiring others to make positive changes in their own lives for the well-being of the planet.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Live_sustainably",
+      "Value": {
+        "Conformity": 4.0,
+        "Power": 3.0,
+        "Achievement": 5.0,
+        "Hedonism": 3.5,
+        "Stimulation": 5.5,
+        "Self-direction": 4.0,
+        "Universalism": 6.0,
+        "Benevolence": 5.5,
+        "Tradition": 2.5,
+        "Security": 4.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a couple riding bicycles through a beautiful park, with the message 'Live_sustainably' displayed above. The image emphasizes healthy living and environmentally friendly transportation. The couple’s smiles convey a sense of freedom and well-being, while the scenic backdrop symbolizes the benefits of living in harmony with nature. The image reflects 'Self-direction' and 'Achievement' as the individuals take action toward a more sustainable lifestyle.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Go_green",
+      "Value": {
+        "Conformity": 3.0,
+        "Power": 2.0,
+        "Achievement": 4.0,
+        "Hedonism": 2.5,
+        "Stimulation": 3.5,
+        "Self-direction": 5.5,
+        "Universalism": 6.0,
+        "Benevolence": 5.0,
+        "Tradition": 1.5,
+        "Security": 3.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a person planting a tree in an open green space with the message 'Go_green' above. The individual is surrounded by nature, symbolizing the harmony of sustainable living. The image promotes 'Universalism' and 'Benevolence,' encouraging others to take action for the environment. The clear sky and healthy greenery evoke feelings of peace, responsibility, and positive environmental change, motivating people to participate in sustainable practices.",
+    "output": "[[10]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Explore_new_places",
+      "Value": {
+        "Conformity": 2.5,
+        "Power": 4.0,
+        "Achievement": 3.0,
+        "Hedonism": 5.0,
+        "Stimulation": 6.0,
+        "Self-direction": 5.5,
+        "Universalism": 3.0,
+        "Benevolence": 2.5,
+        "Tradition": 3.5,
+        "Security": 3.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image depicts a solo traveler standing on a mountain peak with the message 'Explore_new_places' displayed. The traveler is gazing at the vast horizon, conveying a sense of adventure and personal freedom. The image represents 'Self-direction' and 'Stimulation,' as the person embraces new experiences. The breathtaking view and dramatic lighting evoke feelings of awe, encouraging others to explore the world and seek new opportunities for growth and discovery.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Support_local_businesses",
+      "Value": {
+        "Conformity": 4.0,
+        "Power": 3.0,
+        "Achievement": 4.5,
+        "Hedonism": 2.5,
+        "Stimulation": 3.5,
+        "Self-direction": 5.0,
+        "Universalism": 5.5,
+        "Benevolence": 6.0,
+        "Tradition": 3.0,
+        "Security": 3.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "The image shows a family shopping at a local farmer’s market, with the message 'Support_local_businesses' prominently displayed. The family is interacting with small-business owners, exchanging smiles and engaging in friendly conversation. The setting conveys a sense of community and warmth, promoting 'Benevolence' and 'Universalism.' The message emphasizes the importance of supporting local entrepreneurs, fostering social responsibility and the growth of local economies.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Give_back_to_community",
+      "Value": {
+        "Conformity": 4.5,
+        "Power": 3.0,
+        "Achievement": 4.5,
+        "Hedonism": 3.0,
+        "Stimulation": 3.0,
+        "Self-direction": 3.5,
+        "Universalism": 5.0,
+        "Benevolence": 6.0,
+        "Tradition": 4.5,
+        "Security": 3.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a group of volunteers organizing a charity event in a community center with the message 'Give_back_to_community' above. The individuals are actively participating in sorting donations and providing assistance. The image highlights values of 'Benevolence' and 'Universalism,' as people work together to support others. The bright, positive atmosphere and the sense of teamwork encourage viewers to engage in acts of kindness and contribute to their community’s well-being.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Invest_in_education",
+      "Value": {
+        "Conformity": 3.5,
+        "Power": 4.0,
+        "Achievement": 6.0,
+        "Hedonism": 2.5,
+        "Stimulation": 3.0,
+        "Self-direction": 4.5,
+        "Universalism": 4.0,
+        "Benevolence": 3.5,
+        "Tradition": 2.5,
+        "Security": 4.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "The image shows a teacher in a classroom, engaging with a group of eager students. The message 'Invest_in_education' is displayed above, promoting the importance of learning. The classroom is bright, and the students appear excited and motivated. The image represents 'Achievement' and 'Self-direction,' with an emphasis on intellectual growth and empowerment. It inspires others to value education and invest in the development of future generations.",
+    "output": "[[10]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Reduce_plastic_waste",
+      "Value": {
+        "Conformity": 4.0,
+        "Power": 3.5,
+        "Achievement": 4.0,
+        "Hedonism": 3.0,
+        "Stimulation": 5.0,
+        "Self-direction": 4.5,
+        "Universalism": 6.0,
+        "Benevolence": 5.5,
+        "Tradition": 2.0,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "The image shows a person picking up plastic waste on a beach with the message 'Reduce_plastic_waste' above. The individual is actively engaged in cleaning the environment, symbolizing 'Universalism' and 'Benevolence.' The image conveys a strong environmental message, motivating others to reduce plastic consumption and make responsible choices to protect the planet. The sunny beach and calm sea represent the benefits of a cleaner, more sustainable world.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Prioritize_mental_health",
+      "Value": {
+        "Conformity": 3.0,
+        "Power": 4.5,
+        "Achievement": 3.5,
+        "Hedonism": 5.0,
+        "Stimulation": 5.0,
+        "Self-direction": 6.0,
+        "Universalism": 3.0,
+        "Benevolence": 2.5,
+        "Tradition": 3.5,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "The image shows a person practicing yoga by a calm lake, with the message 'Prioritize_mental_health' displayed. The individual is meditating and practicing mindfulness, emphasizing the importance of mental well-being. The peaceful environment, with tranquil water and surrounding nature, supports the message of 'Self-direction' and 'Hedonism,' encouraging self-care and mental clarity. The image conveys the benefits of prioritizing personal health and well-being.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Act_responsibly",
+      "Value": {
+        "Conformity": 5.0,
+        "Power": 4.0,
+        "Achievement": 4.0,
+        "Hedonism": 2.5,
+        "Stimulation": 3.5,
+        "Self-direction": 4.5,
+        "Universalism": 5.0,
+        "Benevolence": 5.5,
+        "Tradition": 3.5,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "The image shows a person helping an elderly neighbor with groceries, with the message 'Act_responsibly' displayed above. The person is taking responsibility for the well-being of another, exemplifying 'Benevolence' and 'Universalism.' The action promotes the values of caring for others and acting with integrity, which resonates with individuals who value responsibility and social welfare. The scene conveys warmth, empathy, and a sense of duty to others.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Eat_healthy",
+      "Value": {
+        "Conformity": 3.0,
+        "Power": 2.5,
+        "Achievement": 4.0,
+        "Hedonism": 3.5,
+        "Stimulation": 4.0,
+        "Self-direction": 5.5,
+        "Universalism": 4.5,
+        "Benevolence": 3.0,
+        "Tradition": 2.5,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a fresh salad filled with vibrant vegetables, with the message 'Eat_healthy' displayed above. The image promotes 'Hedonism' and 'Self-direction' by emphasizing the joy of eating healthy and making personal choices that lead to well-being. The abundance of color and freshness invites the viewer to enjoy healthy food and adopt a lifestyle that nurtures the body.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Support_mental_health",
+      "Value": {
+        "Conformity": 4.0,
+        "Power": 3.5,
+        "Achievement": 4.0,
+        "Hedonism": 4.0,
+        "Stimulation": 4.5,
+        "Self-direction": 5.0,
+        "Universalism": 4.5,
+        "Benevolence": 5.0,
+        "Tradition": 3.0,
+        "Security": 3.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a group of people in a support group session, with the message 'Support_mental_health' displayed. The individuals are engaged in deep conversations, fostering understanding and compassion. The image resonates with 'Benevolence' and 'Universalism,' promoting mental well-being through open discussion and social support. The setting provides a sense of comfort, making it clear that seeking help is an important and positive step.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Exercise_regularly",
+      "Value": {
+        "Conformity": 3.5,
+        "Power": 4.0,
+        "Achievement": 5.0,
+        "Hedonism": 3.0,
+        "Stimulation": 4.5,
+        "Self-direction": 5.5,
+        "Universalism": 3.5,
+        "Benevolence": 2.5,
+        "Tradition": 2.5,
+        "Security": 3.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a runner completing a marathon with the message 'Exercise_regularly' above. The runner’s determined expression and athletic form highlight 'Achievement' and 'Self-direction,' symbolizing personal goals and the benefits of regular exercise. The setting, with cheering spectators and a sunny day, represents the sense of freedom and vitality gained through a healthy lifestyle.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Adopt_a_pet",
+      "Value": {
+        "Conformity": 3.5,
+        "Power": 2.5,
+        "Achievement": 4.0,
+        "Hedonism": 3.0,
+        "Stimulation": 3.5,
+        "Self-direction": 5.0,
+        "Universalism": 5.5,
+        "Benevolence": 6.0,
+        "Tradition": 3.5,
+        "Security": 3.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image depicts a person smiling and cuddling a rescued dog with the message 'Adopt_a_pet' above. The person’s nurturing and affectionate gesture embodies 'Benevolence' and 'Universalism,' emphasizing the joy of giving a pet a home. The image highlights the bond between humans and animals, motivating viewers to adopt animals in need and experience the emotional rewards of helping others.",
+    "output": "[[10]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Respect_diversity",
+      "Value": {
+        "Conformity": 3.0,
+        "Power": 4.0,
+        "Achievement": 5.0,
+        "Hedonism": 4.5,
+        "Stimulation": 4.0,
+        "Self-direction": 5.5,
+        "Universalism": 6.0,
+        "Benevolence": 5.0,
+        "Tradition": 3.0,
+        "Security": 3.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a diverse group of people gathered together, with the message 'Respect_diversity' displayed above. The individuals are laughing and interacting with each other, highlighting the beauty of cultural differences. The image emphasizes 'Universalism' and 'Benevolence,' encouraging acceptance, inclusivity, and respect for people from all backgrounds.",
+    "output": "[[10]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Save_the_earth",
+      "Value": {
+        "Conformity": 2.5,
+        "Power": 3.5,
+        "Achievement": 4.5,
+        "Hedonism": 3.0,
+        "Stimulation": 4.5,
+        "Self-direction": 5.0,
+        "Universalism": 6.0,
+        "Benevolence": 5.0,
+        "Tradition": 2.0,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a forest with lush greenery and the message 'Save_the_earth' above. The trees stand tall, symbolizing environmental strength and vitality. The image communicates a sense of urgency and responsibility to protect nature. The viewer is encouraged to care for the planet and consider the long-term impact of their actions, reflecting 'Universalism' and 'Benevolence.'",
+    "output": "[[10]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Be_kind",
+      "Value": {
+        "Conformity": 5.0,
+        "Power": 3.5,
+        "Achievement": 3.0,
+        "Hedonism": 3.5,
+        "Stimulation": 4.0,
+        "Self-direction": 4.5,
+        "Universalism": 5.5,
+        "Benevolence": 6.0,
+        "Tradition": 4.0,
+        "Security": 3.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a person helping an injured stranger with the message 'Be_kind' displayed above. The image symbolizes 'Benevolence' and 'Universalism,' highlighting the importance of showing kindness and helping others in times of need. The expression of gratitude on the injured person's face reinforces the power of small, kind gestures that make a big difference in someone's life.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Practice_gratitude",
+      "Value": {
+        "Conformity": 3.5,
+        "Power": 4.0,
+        "Achievement": 4.0,
+        "Hedonism": 3.5,
+        "Stimulation": 4.0,
+        "Self-direction": 5.0,
+        "Universalism": 4.5,
+        "Benevolence": 5.0,
+        "Tradition": 3.5,
+        "Security": 3.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a person writing in a gratitude journal with the message 'Practice_gratitude' displayed above. The calm setting and the act of reflecting on the positive aspects of life reflect 'Self-direction' and 'Benevolence.' The image encourages the viewer to appreciate the simple things in life and embrace the practice of gratitude as a way to enrich their mental well-being.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Support_local_businesses",
+      "Value": {
+        "Conformity": 4.5,
+        "Power": 3.5,
+        "Achievement": 3.5,
+        "Hedonism": 3.0,
+        "Stimulation": 4.0,
+        "Self-direction": 4.5,
+        "Universalism": 4.5,
+        "Benevolence": 5.5,
+        "Tradition": 3.0,
+        "Security": 3.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a customer shopping at a local farmers market with the message 'Support_local_businesses' displayed. The customer is interacting with the vendor and purchasing fresh, local produce. The image reflects 'Benevolence' and 'Universalism,' as it encourages support for small businesses and sustainability. The scene conveys a sense of community, local pride, and a commitment to supporting the economy.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Save_water",
+      "Value": {
+        "Conformity": 3.0,
+        "Power": 4.0,
+        "Achievement": 3.5,
+        "Hedonism": 2.5,
+        "Stimulation": 4.5,
+        "Self-direction": 5.0,
+        "Universalism": 6.0,
+        "Benevolence": 5.5,
+        "Tradition": 2.0,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a group of people turning off the taps in a large, green garden with the message 'Save_water' above. The individuals are smiling as they conserve water, representing 'Universalism' and 'Benevolence' by focusing on protecting the planet's resources. The image encourages responsibility and collective action in preserving vital resources for future generations.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Protect_wildlife",
+      "Value": {
+        "Conformity": 3.0,
+        "Power": 4.0,
+        "Achievement": 3.0,
+        "Hedonism": 2.0,
+        "Stimulation": 3.5,
+        "Self-direction": 5.0,
+        "Universalism": 6.0,
+        "Benevolence": 6.0,
+        "Tradition": 2.5,
+        "Security": 4.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image depicts a family volunteering at an animal rescue center, with the message 'Protect_wildlife' above. The family is working together to care for injured animals, reflecting 'Benevolence' and 'Universalism.' The sense of collective action and compassion for wildlife motivates the viewer to take part in similar efforts to conserve endangered species and protect ecosystems.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Recycle_more",
+      "Value": {
+        "Conformity": 3.0,
+        "Power": 2.5,
+        "Achievement": 4.0,
+        "Hedonism": 3.0,
+        "Stimulation": 4.0,
+        "Self-direction": 4.5,
+        "Universalism": 6.0,
+        "Benevolence": 5.5,
+        "Tradition": 3.5,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a group of children sorting through recyclables in a clean, modern recycling center with the message 'Recycle_more' above. The children are learning about the importance of recycling, which aligns with 'Universalism' and 'Benevolence.' The scene is both educational and impactful, motivating viewers to recycle and help reduce waste to protect the planet.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Mindful_breathing",
+      "Value": {
+        "Conformity": 3.5,
+        "Power": 3.0,
+        "Achievement": 4.0,
+        "Hedonism": 3.0,
+        "Stimulation": 4.0,
+        "Self-direction": 5.5,
+        "Universalism": 4.5,
+        "Benevolence": 3.0,
+        "Tradition": 3.5,
+        "Security": 4.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a peaceful person meditating in a serene park setting with the message 'Mindful_breathing' above. The calm expression on their face and the tranquil environment embody 'Self-direction' and 'Security.' The image encourages viewers to focus on their mental health and practice mindfulness as a tool for relaxation and stress relief.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Reduce_plastic_waste",
+      "Value": {
+        "Conformity": 3.5,
+        "Power": 2.0,
+        "Achievement": 3.5,
+        "Hedonism": 3.0,
+        "Stimulation": 3.5,
+        "Self-direction": 5.5,
+        "Universalism": 6.0,
+        "Benevolence": 5.5,
+        "Tradition": 2.5,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a person carrying reusable bags in a local store with the message 'Reduce_plastic_waste' above. The focus on reducing plastic usage aligns with 'Universalism' and 'Benevolence,' encouraging the viewer to take action to reduce plastic consumption and adopt more eco-friendly habits.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Empathy_in_action",
+      "Value": {
+        "Conformity": 3.5,
+        "Power": 3.0,
+        "Achievement": 4.0,
+        "Hedonism": 3.5,
+        "Stimulation": 4.5,
+        "Self-direction": 4.0,
+        "Universalism": 5.5,
+        "Benevolence": 6.0,
+        "Tradition": 3.0,
+        "Security": 4.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a volunteer helping an elderly person with groceries, with the message 'Empathy_in_action' above. The volunteer's smile and the elderly person’s grateful expression evoke a strong sense of 'Benevolence' and 'Universalism,' demonstrating the power of empathy in everyday life. The image inspires the viewer to show kindness and care for others, especially those in need.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Be_a_learner",
+      "Value": {
+        "Conformity": 3.0,
+        "Power": 2.5,
+        "Achievement": 5.5,
+        "Hedonism": 3.0,
+        "Stimulation": 4.0,
+        "Self-direction": 6.0,
+        "Universalism": 4.0,
+        "Benevolence": 3.5,
+        "Tradition": 3.0,
+        "Security": 4.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a student studying in a library surrounded by books, with the message 'Be_a_learner' above. The student is deeply focused, emphasizing the importance of self-growth and lifelong learning. This scene resonates with 'Self-direction' and 'Achievement,' motivating others to pursue knowledge and foster their personal development.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Community_first",
+      "Value": {
+        "Conformity": 4.5,
+        "Power": 3.0,
+        "Achievement": 3.5,
+        "Hedonism": 3.0,
+        "Stimulation": 3.5,
+        "Self-direction": 5.0,
+        "Universalism": 5.5,
+        "Benevolence": 5.5,
+        "Tradition": 4.0,
+        "Security": 3.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a community coming together for a local clean-up event, with the message 'Community_first' displayed. The individuals are working side by side, demonstrating 'Benevolence' and 'Universalism.' The image emphasizes the power of collective action to create positive change in the community and encourages viewers to get involved in local efforts to improve their environment.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Spread_love",
+      "Value": {
+        "Conformity": 4.0,
+        "Power": 3.5,
+        "Achievement": 4.0,
+        "Hedonism": 3.0,
+        "Stimulation": 4.0,
+        "Self-direction": 4.0,
+        "Universalism": 5.5,
+        "Benevolence": 6.0,
+        "Tradition": 3.5,
+        "Security": 4.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows two friends hugging with the message 'Spread_love' above. The act of embracing each other represents 'Benevolence' and 'Universalism,' conveying the warmth and positivity of showing love and kindness. The image encourages viewers to spread love in their communities and foster relationships that bring people closer together.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Plant_a_tree",
+      "Value": {
+        "Conformity": 3.0,
+        "Power": 2.5,
+        "Achievement": 4.0,
+        "Hedonism": 3.0,
+        "Stimulation": 3.5,
+        "Self-direction": 5.0,
+        "Universalism": 6.0,
+        "Benevolence": 6.0,
+        "Tradition": 2.0,
+        "Security": 4.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a person planting a tree in a park with the message 'Plant_a_tree' above. The individual is smiling as they nurture the earth, which aligns with 'Universalism' and 'Benevolence.' The scene encourages viewers to take part in tree planting initiatives to combat climate change and contribute to the environment’s sustainability.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Buy_local",
+      "Value": {
+        "Conformity": 4.0,
+        "Power": 2.5,
+        "Achievement": 3.5,
+        "Hedonism": 3.0,
+        "Stimulation": 4.0,
+        "Self-direction": 5.5,
+        "Universalism": 5.0,
+        "Benevolence": 5.0,
+        "Tradition": 3.0,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a local market where people are shopping for fresh produce with the message 'Buy_local' above. The vendors and customers are engaged in friendly exchanges, symbolizing 'Benevolence' and 'Universalism.' The image promotes supporting small businesses and local economies, advocating for sustainable and community-focused purchasing habits.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Support_sustainability",
+      "Value": {
+        "Conformity": 3.5,
+        "Power": 2.0,
+        "Achievement": 4.0,
+        "Hedonism": 3.0,
+        "Stimulation": 4.5,
+        "Self-direction": 5.0,
+        "Universalism": 6.0,
+        "Benevolence": 5.5,
+        "Tradition": 2.5,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image features a person recycling a plastic bottle with the message 'Support_sustainability' above. The person is thoughtfully engaging in environmental action, which reflects 'Universalism' and 'Benevolence.' The image highlights the importance of individual actions in supporting global sustainability efforts, encouraging viewers to take responsibility for their environmental impact.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Create_more_art",
+      "Value": {
+        "Conformity": 2.0,
+        "Power": 3.0,
+        "Achievement": 4.5,
+        "Hedonism": 4.0,
+        "Stimulation": 5.0,
+        "Self-direction": 6.0,
+        "Universalism": 4.5,
+        "Benevolence": 3.5,
+        "Tradition": 3.0,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows an artist painting a large mural in a vibrant city space with the message 'Create_more_art' above. The artist is actively creating, surrounded by their work, which speaks to 'Self-direction' and 'Stimulation.' The image promotes the power of artistic expression and encourages viewers to engage in their own creative endeavors.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Support_mental_health",
+      "Value": {
+        "Conformity": 4.0,
+        "Power": 3.0,
+        "Achievement": 4.5,
+        "Hedonism": 3.0,
+        "Stimulation": 4.5,
+        "Self-direction": 5.0,
+        "Universalism": 5.0,
+        "Benevolence": 5.0,
+        "Tradition": 3.5,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a group of people having a conversation in a mental health support group, with the message 'Support_mental_health' above. The participants are sharing their experiences and supporting each other, embodying 'Benevolence' and 'Universalism.' The image encourages individuals to prioritize mental health and seek support when needed.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Practice_kindness",
+      "Value": {
+        "Conformity": 3.5,
+        "Power": 2.5,
+        "Achievement": 4.0,
+        "Hedonism": 3.0,
+        "Stimulation": 3.5,
+        "Self-direction": 4.5,
+        "Universalism": 5.5,
+        "Benevolence": 6.0,
+        "Tradition": 2.5,
+        "Security": 4.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a person helping an elderly neighbor carry groceries with the message 'Practice_kindness' above. The volunteer's caring actions highlight 'Benevolence' and 'Universalism.' The image promotes kindness, encouraging viewers to engage in thoughtful acts of compassion and contribute positively to their communities.",
+    "output": "[[9]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Invest_in_education",
+      "Value": {
+        "Conformity": 3.0,
+        "Power": 3.5,
+        "Achievement": 5.5,
+        "Hedonism": 3.0,
+        "Stimulation": 4.5,
+        "Self-direction": 5.5,
+        "Universalism": 4.5,
+        "Benevolence": 4.0,
+        "Tradition": 3.0,
+        "Security": 4.0
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image features a teacher giving a lecture to a group of eager students, with the message 'Invest_in_education' above. The students are actively taking notes, showing engagement with the lesson. The image highlights 'Achievement' and 'Self-direction,' encouraging individuals to value education and invest in their intellectual growth.",
+    "output": "[[8]]"
+  },
+  {
+    "instruction": "You will perform a task where you predict how persuasive certain individuals will find an image created from a message, rating it from 0 to 10. Please predict the persuasiveness score based on the image description and the user's values. These values are based on Schwartz's 10 basic values, where each value is rated on a scale from 1 to 6. The higher the value, the more emphasis is placed on that value. Respond with a single number between 0 and 10.",
+    "input": {
+      "Message": "Be_inclusive",
+      "Value": {
+        "Conformity": 4.0,
+        "Power": 3.0,
+        "Achievement": 4.0,
+        "Hedonism": 3.5,
+        "Stimulation": 4.5,
+        "Self-direction": 5.0,
+        "Universalism": 6.0,
+        "Benevolence": 5.5,
+        "Tradition": 3.5,
+        "Security": 3.5
+      },
+      "Message_Instruction": "Please directly output a score by strictly following this format: [[score]], for example: [[4]]"
+    },
+    "image description": "This image shows a diverse group of people sitting together in a circle, with the message 'Be_inclusive' above. The individuals represent different cultures and backgrounds, collaborating harmoniously, which emphasizes 'Universalism' and 'Benevolence.' The image calls for inclusivity and unity among diverse groups in society.",
+    "output": "[[9]]"
+  }
+]
